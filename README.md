@@ -43,7 +43,7 @@ Try these after running the web server on `localhost:9977`:
 - Invalid URL → Triggers custom 404 page.
 
 
-## 👥 Authors
+## 👥 Contributors
 
 - [**Razan Abdalrahman**](https://github.com/razanodeh01) 
 - [**Maisam Alaa**](https://github.com/maisamjuma)
