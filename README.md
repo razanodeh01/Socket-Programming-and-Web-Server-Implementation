@@ -1,4 +1,50 @@
-# ENCS3320-COMPUTER-NETWORKS-P1
-<h2>Client-server applications.</h2>
-<p>*****************************************</p>
-In this project, We have implemented UDP client-server applications using Go, Python, Java, and C. The server, set to specific port, adeptly manages broadcast messages sent every slot of time by seconds by clients, incorporating student names. The solution keeps track of the latest message from each client for easy reference. Furthermore, We have included a straightforward web server in Go, Python, Java, and C, all operating on specific port. This concise collection offers a glimpse into my network programming solutions across multiple languages.
+# Socket Programming and Web Server Implementation
+
+## 🧠 Overview
+This project demonstrates key networking concepts through hands-on implementation of:
+- ICMP and DNS diagnostic tools (`ping`, `tracert`, `nslookup`, `telnet`).
+- UDP-based communication (client-server messaging over a local network).
+- A fully functional web server built using socket programming.
+
+## 💡 Project Objectives
+1. Explore foundational networking utilities and their behavior.
+2. Implement a UDP client that broadcasts messages and a server that listens and logs them.
+3. Build a custom web server that:
+   - Responds to various HTTP requests.
+   - Serves HTML/CSS/images.
+   - Redirects users.
+   - Handles 404 errors with custom responses.
+
+## 🛠️ Technologies Used
+- Python (Socket Library).
+- HTML5, CSS3.
+- Command Line (for network tools).
+
+
+## ✨ Features
+- **Network Diagnostics:**
+  - Execute and interpret results from `ping`, `tracert`, `nslookup`, `telnet`.
+- **UDP Client/Server:**
+  - Client sends name as a broadcast message every 2 seconds.
+  - Server logs the sender’s name, IP, and timestamp.
+- **Web Server:**
+  - Serves HTML/CSS/image files.
+  - Handles Arabic/English content.
+  - Redirects based on custom paths (`/yt`, `/so`, `/rt`).
+  - Returns `404 Not Found` with client info for invalid paths.
+
+## 🌐 Demo URLs
+Try these after running the web server on `localhost:9977`:
+- `/` → English main page.
+- `/ar` → Arabic main page.
+- `/about_us_en.html`.
+- `/yt` → Redirects to YouTube.
+- `/so` → Redirects to Stack Overflow.
+- Invalid URL → Triggers custom 404 page.
+
+
+## 👥 Authors
+
+- [**Razan Abdalrahman**](https://github.com/razanodeh01) 
+- [**Maisam Alaa**](https://github.com/maisamjuma)
+
